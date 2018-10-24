@@ -3,7 +3,7 @@
 # para extraer datos de la Oferta Academica y colocarlos en su respectiva Tabla.
 
 # Version Python: 2 y 3.
-# Nombre:OferAc (Scrapper de la Oferta Academica).
+# Nombre: OferAc (Scrapper de la Oferta Academica).
 # By: LawlietJH.
 
 from bs4 import BeautifulSoup		# Dependencia: python -m pip install bs4
@@ -11,7 +11,7 @@ import xlsxwriter					# Dependencia: python -m pip install xlsxwriter
 import requests						# Dependencia: python -m pip install requests
 import os, sys, copy
 
-reload(sys)  
+reload(sys)
 sys.setdefaultencoding('utf8')
 
 class ScrapperOferAc:
