@@ -11,8 +11,10 @@ import xlsxwriter					# Dependencia: python -m pip install xlsxwriter
 import requests						# Dependencia: python -m pip install requests
 import os, sys, copy
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+if int(sys.version[0]) == 2:
+	
+	reload(sys)
+	sys.setdefaultencoding('utf8')
 
 class ScrapperOferAc:
 	
